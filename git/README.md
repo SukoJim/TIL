@@ -9,3 +9,8 @@
     - [Toptal의 gitignore generator](https://www.toptal.com/developers/gitignore)을 사용하여 운영체제, 개발환경(IDE), 프로그래밍 언어에 맞는 
     gitignore 파일을 생성할 수 있다
       - 이외에도 VSCode에 Extension을 설치해 gitignore파일을 관리하기도 함.
+
+
+## 브렌치
+ - branch : (영한사전 정의) 나뭇가지
+ - (일반적으로) 일감을 해결할 때 일감에 해당하는 이슈를 만들고, 이슈를 해당하는 브렌치를 생성함 
