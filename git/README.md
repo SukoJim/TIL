@@ -14,3 +14,12 @@
 ## 브렌치
  - branch : (영한사전 정의) 나뭇가지
  - (일반적으로) 일감을 해결할 때 일감에 해당하는 이슈를 만들고, 이슈를 해당하는 브렌치를 생성함 
+
+
+
+### 명령어
+ - 브렌치 생성 : `git branch 브렌치명`
+ - todtjdehls qmfpscl ghkrdls : `git branch`
+ - 브렌치 전환
+  1. `git switch 브렌치명`
+  2. `git checkout 브렌치명`
