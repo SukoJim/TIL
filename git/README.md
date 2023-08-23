@@ -19,7 +19,7 @@
 
 ### 명령어
  - 브렌치 생성 : `git branch 브렌치명`
- - todtjdehls qmfpscl ghkrdls : `git branch`
+ - 생성된 브렌치 확인: `git branch`
  - 브렌치 전환
   1. `git switch 브렌치명`
   2. `git checkout 브렌치명`
