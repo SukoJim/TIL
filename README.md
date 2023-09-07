@@ -12,3 +12,5 @@
 ## python
  - [python](./python/README.md)
  
+ ## Algorithm
+ - [Algorithm](./Algorithm/README.md)
