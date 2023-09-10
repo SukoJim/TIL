@@ -17,7 +17,7 @@ A **queue** is an important data structure in computer science that manages data
 ## Types of Queues
 
 1. **Standard Queue**: This is the most common type of queue where data is processed in the order it arrives.
-   ```
+   ```python
    class Queue:
     def __init__(self):
         self.items = []
@@ -33,7 +33,7 @@ A **queue** is an important data structure in computer science that manages data
         return len(self.items) == 0
    ```
 2. **Priority Queue**: Priority queues assign a priority to each data element, and elements with higher priority are processed first.
-   ```
+   ```python
    import heapq
   
    class PriorityQueue:
@@ -51,7 +51,7 @@ A **queue** is an important data structure in computer science that manages data
           return len(self.elements) == 0
    ```
 3. **Circular Queue**: Similar to a standard queue but with the front and rear connected, allowing data to circulate within the structure.
-    ```
+    ```python
     class CircularQueue:
         def __init__(self, size):
             self.size = size
@@ -84,7 +84,7 @@ A **queue** is an important data structure in computer science that manages data
             return self.front == -1
     ```
 4. **Deque (Double-ended Queue)**: A queue that allows insertion and removal of data from both ends.
-   ```
+   ```python
    from collections import deque
 
    class Deque:
