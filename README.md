@@ -13,4 +13,8 @@
  - [python](./python/README.md)
  
  ## Algorithm
- - [Algorithm](./Algorithm/README.md)
+ >- [Algorithm](./Algorithm/README.md)
+ > ### Data Structure
+ >> - [Stack](./Algorithm/Stack.md)   
+ >> - [Queue](./Algorithm/Queue.md) 
+ >>
