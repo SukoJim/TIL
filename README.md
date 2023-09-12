@@ -1,7 +1,7 @@
 # 🔍TIL
 [![License](https://img.shields.io/github/license/mashape/apistatus.svg)](./LICENSE)  
 
-- Today I Learned 저장소에선 그날 배운 개발 관련 지식을 정리합니다.
+- Today I Learned 저장소에선 그날 배운 전공 관련 지식을 정리합니다.
 
 - **[Git](./git/README.md)**
 
@@ -17,3 +17,6 @@
  >> - [Stack](./Algorithm/Stack.md)   
  >> - [Queue](./Algorithm/Queue.md) 
  >>
+
+## System Analysis Design
+ - [System and Structures](./System_Analysis_Design/System_and_Structures.md)
