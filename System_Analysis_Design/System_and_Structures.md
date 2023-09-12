@@ -1,5 +1,6 @@
-## System Analysis and Design
+# System Analysis and Design
 
+## System and Structures   
 ### What is a System?
 > - A system is a designed and implemented information system that transforms data into a form that can be processed by computers, stores, processes, and manipulates data, and outputs information when needed.
 
