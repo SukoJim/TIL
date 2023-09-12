@@ -15,7 +15,7 @@ A stack is a data structure that temporarily stores data, following the Last-In-
 
 ## Implementation in Python
 In Python, you can implement a stack using the list data structure. Here's a simple example of a stack implementation:
-```
+```python
 class Stack:
     def __init__(self):
         self.items = []
@@ -38,7 +38,7 @@ class Stack:
         return len(self.items)
 ```
 ### When using python built-in library you can implement like this : 
-```
+```python
 from collections import deque
 
 stack = deque()
