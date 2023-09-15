@@ -103,3 +103,24 @@ cv2.imshow('Rotated Image', rotated_image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
+
+## Calculate the Histogram of the image
+```python
+import cv2
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Load the image
+image = cv2.imread('example.jpg')
+
+# Calculate the histogram for RGB channels
+hist_b = cv2.calcHist([image], [0], None, [256], [0, 256])
+hist_g = cv2.calcHist([image], [1], None, [256], [0, 256])
+hist_r = cv2.calcHist([image], [2], None, [256], [0, 256]) #Each of 0,1,2 means an BGR channel
+
+# Convert the image to grayscale
+gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+
+# Calculate the histogram for the grayscale channel
+hist_gray = cv2.calcHist([gray_image], [0], None, [256], [0, 256])
+```
