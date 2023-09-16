@@ -6,7 +6,7 @@
 - **[Git](./git/README.md)**
 
 ## ComputerVision
- - [ComputerVision](./ComputerVision/README.md)
+ - [OpenCV](./ComputerVision/OpenCV.md)
 
 ## python
  - [python](./python/README.md)
