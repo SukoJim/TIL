@@ -16,7 +16,7 @@
  > ### Data Structure
  >> - [Stack](./Algorithm/Stack.md)   
  >> - [Queue](./Algorithm/Queue.md) 
- >>
+ >> - [Hash](./Algorithm/Hash.md)
 
 ## System Analysis Design
  - [System and Structures](./System_Analysis_Design/System_and_Structures.md)
