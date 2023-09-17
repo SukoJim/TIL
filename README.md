@@ -9,7 +9,7 @@
  - [OpenCV](./ComputerVision/OpenCV.md)
 
 ## python
- - [python](./python/README.md)
+ - [Django](./python/Django.md)
  
  ## Algorithm
  >- [Algorithm](./Algorithm/README.md)
