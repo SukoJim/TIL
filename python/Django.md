@@ -87,3 +87,29 @@
 > book = Book.objects.get(pk=1)
 > book.delete()
 > ```
+
+## Understanding Django Views, Templates, and URL Patterns
+
+>**Creating a View:**
+>
+>1. Create a view function by defining it in the `views.py` file:>
+>
+>   ```python
+>   from django.http import HttpResponse
+>
+>   def hello(request):
+>       return HttpResponse("Hello, Django!")
+>   ```
+> - To create a view, you define a Python function in the `views.py` file within your Django app. This function takes a `request` parameter and should return an HTTP response.
+
+**Connect the view to a URL pattern by defining it in the `urls.py` file:**
+
+>```python
+>from django.urls import path
+>from . import views
+>
+>urlpatterns = [
+>    path('hello/', views.hello, name='hello'),
+>]
+>```
+> - In this step, you are connecting the hello view function to a URL pattern /hello/ by defining it in the urls.py file. This allows you to access the hello view when you visit the /hello/ URL in your Django application.
