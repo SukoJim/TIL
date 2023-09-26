@@ -6,8 +6,8 @@
 - **[Git](./git/README.md)**
 
 ## ComputerVision
- - [OpenCV](./ComputerVision/OpenCV.md)
-
+ - [Basic Image Modify](./ComputerVision/BasicOpenCV.md)
+ - [histogram-analysis](./ComputerVision/histogram-analysis.md)
 ## python
 >### Machine Learning Framework
 >- [tensorflow](./python/tensorflow.md)
