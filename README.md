@@ -8,6 +8,7 @@
 ## ComputerVision
  - [Basic Image Modify](./ComputerVision/BasicOpenCV.md)
  - [histogram-analysis](./ComputerVision/histogram-analysis.md)
+ - [Morphological Operations](./ComputerVision/Morphological_Operations.md)
 ## python
 >### Machine Learning Framework
 >- [tensorflow](./python/tensorflow.md)
