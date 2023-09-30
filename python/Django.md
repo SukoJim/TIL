@@ -88,28 +88,76 @@
 > book.delete()
 > ```
 
-## Understanding Django Views, Templates, and URL Patterns
+# Django Design Patterns
 
->**Creating a View:**
->
->1. Create a view function by defining it in the `views.py` file:>
->
->   ```python
->   from django.http import HttpResponse
->
->   def hello(request):
->       return HttpResponse("Hello, Django!")
->   ```
-> - To create a view, you define a Python function in the `views.py` file within your Django app. This function takes a `request` parameter and should return an HTTP response.
+## 1. Model
 
-**Connect the view to a URL pattern by defining it in the `urls.py` file:**
+### How it works
+1. Create Python classes in the `models.py` file to define database tables.
+2. Each class field is mapped to a database column.
+3. Use the `migrate` command to create the database schema and store data.
+
+>### Example
+>```python
+>from django.db import models
+>
+>class Post(models.Model):
+>    title = models.CharField(max_length=200)
+>    content = models.TextField()
+>    pub_date = models.DateTimeField('date published')
+>```
+## 2. View
+
+### How it works
+1. Create Python functions or classes in the `views.py` file to define the business logic of web pages.
+2. Handle requests, fetch data from the model, and pass it to the template.
+3. Generate and return responses.
+
+### Example
+>```python
+>from django.shortcuts import render
+>from .models import Post
+>
+>def post_list(request):
+>    posts = Post.objects.all()
+>    return render(request, 'blog/post_list.html', {'posts': posts})
+>```
+## 3. Template
+
+### How it works
+1. Create HTML template files in the `templates` directory.
+2. Use Django template language to display data dynamically within the template.
+3. Render web pages dynamically using template tags and variables.
+
+### Example
+>```html
+><!DOCTYPE html>
+><html>
+><head>
+>    <title>Post List</title>
+></head>
+><body>
+>    <h1>Blog Posts</h1>
+>    <ul>
+>        {% for post in posts %}
+>            <li>{{ post.title }}</li>
+>        {% endfor %}
+>    </ul>
+></body>
+></html>
+>```
+
+## 4. URL Configuration
+### How it works
+1. Define URL patterns in the urls.py file to route requests to view functions or classes.
+2. Map URL patterns using regular expressions.
+3. Django processes requests by calling the appropriate view based on the URL pattern.
 
 >```python
 >from django.urls import path
 >from . import views
 >
 >urlpatterns = [
->    path('hello/', views.hello, name='hello'),
+>    path('posts/', views.post_list, name='post_list'),
 >]
 >```
-> - In this step, you are connecting the hello view function to a URL pattern /hello/ by defining it in the urls.py file. This allows you to access the hello view when you visit the /hello/ URL in your Django application.
