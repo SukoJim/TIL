@@ -10,6 +10,7 @@
  - [histogram-analysis](./ComputerVision/histogram-analysis.md)
  - [Morphological Operations](./ComputerVision/Morphological_Operations.md)
  - [Geometric Transformation](./ComputerVision/Geometric_Transformation.md)
+ - [Edge Detection](./ComputerVision/Edgy_Detection.md)
 ## python
 >### Machine Learning Framework
 >- [tensorflow](./python/tensorflow.md)
