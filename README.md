@@ -11,6 +11,7 @@
  - [Morphological Operations](./ComputerVision/Morphological_Operations.md)
  - [Geometric Transformation](./ComputerVision/Geometric_Transformation.md)
  - [Edge Detection](./ComputerVision/Edge_Detection.md)
+ - [Hough Transform](./ComputerVision/HoughTransform.md)
 ## python
 >### Machine Learning Framework
 >- [tensorflow](./python/tensorflow.md)
