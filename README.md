@@ -12,6 +12,7 @@
  - [Geometric Transformation](./ComputerVision/Geometric_Transformation.md)
  - [Edge Detection](./ComputerVision/Edge_Detection.md)
  - [Hough Transform](./ComputerVision/HoughTransform.md)
+ - [Harris Corner Detection](./ComputerVision/Harris_Corner.md)
 ## python
 >### Machine Learning Framework
 >- [tensorflow](./python/tensorflow.md)
