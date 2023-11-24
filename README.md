@@ -13,11 +13,12 @@
  - [Edge Detection](./ComputerVision/Edge_Detection.md)
  - [Hough Transform](./ComputerVision/HoughTransform.md)
  - [Harris Corner Detection](./ComputerVision/Harris_Corner.md)
-## python
->### Machine Learning Framework
->- [tensorflow](./python/tensorflow.md)
+      
+## PythonBasic
+- [tensorflow](./python/tensorflow.md)
 - [Django](./python/Django.md)
- 
+- [Flask](./python/Flask.md)
+     
  ## Algorithm
  >- [Algorithm](./Algorithm/README.md)
  > ### Data Structure
