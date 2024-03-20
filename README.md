@@ -14,7 +14,7 @@
  - [Hough Transform](./ComputerVision/HoughTransform.md)
  - [Harris Corner Detection](./ComputerVision/Harris_Corner.md)
       
-## PythonBasic
+## PythonFramework
 - [tensorflow](./python/tensorflow.md)
 - [Django](./python/Django.md)
 - [Flask](./python/Flask.md)
