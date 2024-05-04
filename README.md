@@ -5,6 +5,10 @@
 
 - **[Git](./git/README.md)**
 
+## ML & DL Basics
+ - [Knowledge_Distillation](https://pitch-basilisk-1c4.notion.site/Knowledge-Distillation-3e8f7bbfb4674040bba31168790df151?pvs=4)
+
+
 ## ComputerVision
  - [Basic Image Modify](./ComputerVision/BasicOpenCV.md)
  - [histogram-analysis](./ComputerVision/histogram-analysis.md)
