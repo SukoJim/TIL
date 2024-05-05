@@ -7,6 +7,7 @@
 
 ## ML & DL Basics
  - [Knowledge_Distillation](https://pitch-basilisk-1c4.notion.site/Knowledge-Distillation-3e8f7bbfb4674040bba31168790df151?pvs=4)
+ - [Retreival Augmented Generation](https://pitch-basilisk-1c4.notion.site/Retrieval-Augmented-Generation-RAG-f82dc701c7704c08b04651bf0fcf2a3e?pvs=4)
 
 
 ## ComputerVision
