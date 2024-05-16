@@ -9,6 +9,8 @@
  - [Knowledge_Distillation](https://pitch-basilisk-1c4.notion.site/Knowledge-Distillation-3e8f7bbfb4674040bba31168790df151?pvs=4)
  - [Retreival Augmented Generation](https://pitch-basilisk-1c4.notion.site/Retrieval-Augmented-Generation-RAG-f82dc701c7704c08b04651bf0fcf2a3e?pvs=4)
  - [Transformer](https://pitch-basilisk-1c4.notion.site/Transformer-ce013d679cd342cc8832ab3246df499f?pvs=4)
+ -
+[Indexing&Embedding](https://pitch-basilisk-1c4.notion.site/Indexing-and-Embedding-560644e9a5a24f928c930265aea7cc77?pvs=4)
 
 ## ComputerVision
  - [Basic Image Modify](./ComputerVision/BasicOpenCV.md)
